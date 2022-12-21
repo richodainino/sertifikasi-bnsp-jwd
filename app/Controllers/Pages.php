@@ -13,10 +13,10 @@ class Pages extends BaseController
 
         $data['title'] = ucfirst($page);
 
-        $data['page'] = 'home';
+        $data['page'] = $page;
         return view('templates/header', $data)
             . view('templates/sidebar')
-            . view('pages/home')
+            . view('pages/' . $page)
             . view('templates/footer');
     }
 }
