@@ -26,7 +26,7 @@
 
 <body>
 
-    <nav class="bg-gray-200 border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-800 z-20">
+    <nav class="bg-gray-200 border-gray-200 px-2 sm:px-4 pt-2.5 dark:bg-gray-800 z-20">
         <a href="" class="flex items-center justify-center">
             <img src="https://www.designfreelogoonline.com/wp-content/uploads/2021/08/1167-motorcycle-02.png" class="h-16 mr-4" alt="Logo" />
             <h1 class="self-center text-2xl font-bold whitespace-nowrap dark:text-white">Klub Motor Jagoan Neon</h1>
@@ -41,26 +41,32 @@
             <div class="hidden md:block md:w-full" id="navbar-default">
                 <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-gray-200 dark:bg-gray-800 md:dark:bg-gray-800 dark:border-gray-700 md:w-full">
                     <li class="flex-1">
-                        <a href="#" class="text-lg text-center block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent <?php if ($page === 'home') echo 'font-bold underline text-blue-700 md:dark:text-white" aria-current="page"'; else echo '"' ?> >Home</a>
+                        <a href="/" class="text-lg text-center block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent <?php if ($page === 'home') echo 'font-bold underline text-blue-700 md:dark:text-white" aria-current="page"';
+                                                                                                                                                                                                                                                                                                                    else echo '"' ?> >Home</a>
                     </li>
-                    <li class="flex-1">
-                        <a href="#" class="text-lg text-center block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent <?php if ($page === 'profile')echo 'font-bold underline text-blue-700 md:dark:text-white" aria-current="page"'; else echo '"' ?> >Profile</a>
+                    <li class=" flex-1">
+                            <a href="/profile" class="text-lg text-center block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent <?php if ($page === 'profile') echo 'font-bold underline text-blue-700 md:dark:text-white" aria-current="page"';
+                                                                                                                                                                                                                                                                                                                        else echo '"' ?> >Profile</a>
                     </li>
-                    <li class="flex-1">
-                        <a href="#" class="text-lg text-center block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent <?php if ($page === 'visimisi')echo 'font-bold underline text-blue-700 md:dark:text-white" aria-current="page"'; else echo '"' ?> >Visi dan Misi</a>
+                    <li class=" flex-1">
+                                <a href="/visimisi" class="text-lg text-center block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent <?php if ($page === 'visimisi') echo 'font-bold underline text-blue-700 md:dark:text-white" aria-current="page"';
+                                                                                                                                                                                                                                                                                                                            else echo '"' ?> >Visi dan Misi</a>
                     </li>
-                    <li class="flex-1">
-                        <a href="#" class="text-lg text-center block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent <?php if ($page === 'produk')echo 'font-bold underline text-blue-700 md:dark:text-white" aria-current="page"'; else echo '"' ?> >Produk Kami</a>
+                    <li class=" flex-1">
+                                    <a href="/produk" class="text-lg text-center block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent <?php if ($page === 'produk') echo 'font-bold underline text-blue-700 md:dark:text-white" aria-current="page"';
+                                                                                                                                                                                                                                                                                                                                else echo '"' ?> >Produk Kami</a>
                     </li>
-                    <li class="flex-1">
-                        <a href="#" class="text-lg text-center block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent <?php if ($page === 'kontak')echo 'font-bold underline text-blue-700 md:dark:text-white" aria-current="page"'; else echo '"' ?> >Kontak Kami</a>
+                    <li class=" flex-1">
+                                        <a href="/kontak" class="text-lg text-center block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent <?php if ($page === 'kontak') echo 'font-bold underline text-blue-700 md:dark:text-white" aria-current="page"';
+                                                                                                                                                                                                                                                                                                                                    else echo '"' ?> >Kontak Kami</a>
                     </li>
-                    <li class="flex-1">
-                        <a href="#" class="text-lg text-center block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent <?php if ($page === 'aboutus')echo 'font-bold underline text-blue-700 md:dark:text-white" aria-current="page"'; else echo '"' ?> >About Us</a>
+                    <li class=" flex-1">
+                                            <a href="/about" class="text-lg text-center block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent <?php if ($page === 'about') echo 'font-bold underline text-blue-700 md:dark:text-white" aria-current="page"';
+                                                                                                                                                                                                                                                                                                                                        else echo '"' ?> >About Us</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <section class="grid grid-cols-6 min-h-screen bg-gray-100 dark:bg-gray-700">
+    <section class=" grid grid-cols-6 min-h-screen bg-gray-50 dark:bg-gray-900">
