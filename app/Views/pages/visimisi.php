@@ -1,6 +1,6 @@
-<section class="col-span-5 grid grid-cols-2 gap-4 py-16">
-    <details class="group [&_summary::-webkit-details-marker]:hidden pl-8">
-        <summary class="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-blue-500 dark:bg-blue-900 text-white">
+<section class="col-span-5 grid grid-cols-2 gap-4 py-8">
+    <details class="group [&_summary::-webkit-details-marker]:hidden pl-8" open>
+        <summary class="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-blue-700 text-white">
             <h2 class="font-medium">Visi</h2>
             <svg class="ml-1.5 h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -11,8 +11,8 @@
             Menjadikan Klub Motor Jagoan Neon sebagai Organisasi Motor yang bermartabat, solidaritas tinggi, tanpa kecelakaan, yang terkemuka dalam dunia otomotif.
         </p>
     </details>
-    <details class="group [&_summary::-webkit-details-marker]:hidden pr-8">
-        <summary class="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-blue-500 dark:bg-blue-900 text-white">
+    <details class="group [&_summary::-webkit-details-marker]:hidden pr-8" open>
+        <summary class="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-blue-700 text-white">
             <h2 class="font-medium">Misi</h2>
             <svg class="ml-1.5 h-5 w-5 flex-shrink-0 transition duration-300 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />

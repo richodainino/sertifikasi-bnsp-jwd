@@ -7,7 +7,7 @@
                 <h1 class="text-3xl font-extrabold sm:text-5xl dark:text-white mb-4">
                     Mari bersama mencari
 
-                    <strong class="block font-extrabold text-blue-900 dark:text-blue-400 mt-2">
+                    <strong class="block font-extrabold text-blue-700 mt-2">
                         Jati Diri.
                     </strong>
                 </h1>
