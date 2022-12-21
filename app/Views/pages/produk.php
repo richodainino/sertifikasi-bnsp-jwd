@@ -47,7 +47,7 @@
                 <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                     <img class="rounded-t-lg h-52 w-full object-cover" src="https://images.unsplash.com/photo-1583912736562-6086dedde74b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="Image of a product" />
                     <div class="pt-5 pb-3">
-                        <h5 class="mb-2 text-lg font-normal tracking-tight text-brown dark:text-white">Helmet</h5>
+                        <h5 class="mb-2 text-lg font-normal tracking-tight text-brown dark:text-white">Helm</h5>
                     </div>
                 </div>
             </li>

@@ -27,7 +27,7 @@
                     </svg>
                 </div>
 
-                <p class="mt-0.5 text-xs text-gray-500">Dari 124 review</p>
+                <p class="mt-0.5 text-gray-500 dark:text-white font-bold">Dari 124 review</p>
             </div>
         </div>
 
@@ -62,8 +62,8 @@
                     Indonesia adalah rumah bagi banyak klub motor yang fantastis, tetapi ini adalah pilihan terbaik kami untuk yang terbaik dari yang terbaik. Apakah Anda sedang mencari klub yang berfokus pada touring, balap, atau sekedar bersenang-senang dengan sesama pengendara, klub-klub ini memiliki semuanya.
                 </p>
 
-                <footer class="mt-4">
-                    <p class="text-xs text-gray-500">Steve Bob - CEO Harley Davidson Indonesia</p>
+                <footer class="mt-2">
+                    <p class="text-gray-500 dark:text-white"><span class="font-bold">Steve Bob</span> - CEO Harley Davidson Indonesia</p>
                 </footer>
             </blockquote>
 
@@ -97,8 +97,8 @@
                     Jika Anda ingin menemukan wahana dan acara sepeda motor terbaik di Indonesia, maka klub-klub ini adalah tempat yang tepat untuk memulai. Mulai dari perjalanan rombongan berpemandangan indah melintasi pedesaan hingga acara balap yang mendebarkan, klub-klub ini memiliki sesuatu untuk setiap jenis pengendara.
                 </p>
 
-                <footer class="mt-4">
-                    <p class="text-xs text-gray-500">Michael Waluigi - Sales Manager Benelli Indonesia</p>
+                <footer class="mt-2">
+                    <p class="text-gray-500 dark:text-white"><span class="font-bold">Michael Waluigi</span> - Sales Manager Benelli Indonesia</p>
                 </footer>
             </blockquote>
 
@@ -132,8 +132,8 @@
                     Jika Anda baru mengenal sepeda motor dan ingin bergabung dengan komunitas pengendara yang berpikiran sama, maka klub sepeda motor ini adalah tempat yang tepat untuk memulai. Klub-klub ini menawarkan lingkungan yang ramah dan mendukung bagi pengendara baru, dengan pemimpin berpengalaman dan fokus pada keselamatan.
                 </p>
 
-                <footer class="mt-4">
-                    <p class="text-xs text-gray-500">Andre - Artis</p>
+                <footer class="mt-2">
+                    <p class="text-gray-500 dark:text-white"><span class="font-bold">Andre</span> - Artis</p>
                 </footer>
             </blockquote>
 
@@ -167,8 +167,8 @@
                     Berkendara aman dan bersenang-senang bersama klub motor terpercaya di Indonesia ini. Klub-klub ini menawarkan berbagai kegiatan dan acara untuk penggemar sepeda motor, termasuk perjalanan kelompok, perjalanan touring, dan acara balapan.
                 </p>
 
-                <footer class="mt-4">
-                    <p class="text-xs text-gray-500">Bambang Setyo - Penggiat Motor</p>
+                <footer class="mt-2">
+                    <p class="text-gray-500 dark:text-white"><span class="font-bold">Bambang Setyo</span> - Penggiat Motor</p>
                 </footer>
             </blockquote>
         </div>
