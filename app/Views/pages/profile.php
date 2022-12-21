@@ -25,8 +25,6 @@
             <div class="grid grid-cols-1 lg:grid-cols-2">
                 <div class="relative z-10 lg:py-16">
                     <div class="relative">
-                        <!-- <img alt="Bengkel" src="https://images.unsplash.com/photo-1578474005126-89909099fed6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" class="absolute inset-0 h-full w-full object-cover" /> -->
-
                         <div id="default-carousel" class="relative" data-carousel="static">
                             <!-- Carousel wrapper -->
                             <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
